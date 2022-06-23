@@ -1,0 +1,157 @@
+.heading{
+    height: 100%;
+    display:grid;
+}
+.mySwiper{
+    width: 100%;
+    min-height: 300px;
+}
+.img-box{
+    position: relative;
+}
+
+.img-box span{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.img-box img{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.heading-wrapper{
+   padding: 0;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.h-item{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: calc(100vh - 65vh);
+}
+
+.h-items h5{
+    margin-bottom: 16px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.h-items h1{
+    margin-bottom: 24px;
+    font-size: 72px;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+.a-btn{
+    margin-top: 8px;
+    padding: 8px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    color: #FFFFFF;
+    background-color: var(--primary);
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+.a-btn:hover{
+    background-color: #CC5200;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+}
+
+
+.swiper-res{
+    height: 1003px;
+}
+
+.swiper-pagination-vertical.swiper-pagination-bullets, .swiper-vertical>.swiper-pagination-bullets{
+    left: 15px;
+}
+
+.swiper-pagination-vertical.swiper-pagination-bullets .swiper-pagination-bullet, .swiper-vertical>.swiper-pagination-bullets .swiper-pagination-bullet{
+    height: 35px;
+    width: 35px;
+    border: 5px solid #FFFFFF;
+    background-color: var(--primary);
+}
+
+@media screen and (max-width: 1200px){
+    .h-item{
+        top: 27%;
+        left: 10%;    
+     }
+    .swiper-res{
+        height: 626px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .h-item h1{
+        font-size: 63px;
+    }
+    .swiper-res{
+        height: 525px;
+    }
+    .swiper-pagination-vertical.swiper-pagination-bullets .swiper-pagination-bullet, .swiper-vertical>.swiper-pagination-bullets .swiper-pagination-bullet{
+        height: 25px;
+        width: 25px;
+        border: 5px solid #FFFFFF;
+        background-color: var(--primary);
+    }
+}
+
+@media screen and (max-width: 767px){
+    .h-items h1{
+        font-size: 45px;
+    }
+    .h-items h5{
+        margin-bottom: 8px;
+        font-size: 18px;
+    }
+    .swiper-res{
+        height: 401px;
+    }
+    .img-box img{
+        object-fit: cover;
+        height: 400px;
+    }
+}
+
+@media screen and (max-width: 576px){
+    .h-items h1{
+        font-size: 30px;
+        margin-bottom: 24px;
+    }
+    .h-items h5{
+        font-size: 16px;
+    }
+    .a-btn{
+        padding: 8px 16px;
+    }
+
+    .swiper-res{
+        height: 300px;
+    }
+    .img-box img{
+        height: 300px;
+    }
+}
+
+@media screen and (max-width: 440px){
+    .h-item{
+        left: 12%;    
+     }
+
+}

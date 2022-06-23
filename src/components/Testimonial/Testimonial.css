@@ -1,0 +1,80 @@
+.testimonial{
+    height: 100%;
+}
+
+.testi-res{
+    padding: 30px 0px 48px;
+}
+
+.testi-title{
+    text-align: center;
+    margin-top: 48px;
+}
+
+.testi-title h5{
+    font-size: 20px;
+    color: var(--primary);
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+}
+
+.testi-title h1{
+    font-size: 40px;
+    color: var(--dark);
+    font-weight: bold;
+}
+
+.testimonial-item{
+    text-align: center;
+}
+
+.testimonial-items i{
+    font-size: 60px;
+    color: var(--primary);
+}
+
+.testimonial-items h4{
+    margin:10px 0px 24px;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.testimonial-items img{
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    margin-bottom: 16px;
+}
+
+.testimonial-items h5{
+    font-size: 20px;
+    color: var(--dark);
+}
+
+.testimonial-items span{
+    display: inline-block;
+    color: #6c6a74;
+    margin-bottom: 15px;
+}
+
+
+.swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet, .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet{
+    background: url("../../img/circle.png") no-repeat;
+    background-size: cover;
+    width: 25px;
+    height: 25px;
+}
+
+@media screen and (max-width: 576px){
+    .testi-title h1{
+        font-size: 30px;
+    }
+
+    .testimonial-items h4{
+        font-size: 22px;
+    }
+}
+
+
+

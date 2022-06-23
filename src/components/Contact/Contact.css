@@ -1,0 +1,107 @@
+.contact{
+    height: 100%;
+    margin: 120px 0px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../../img/registration.jpg");
+    background-size: cover;
+    padding: 48px 15px;
+}
+
+
+.contact-title h5{
+    font-size: 20px;
+    color: var(--primary);
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+}
+
+.contact-title h1{
+    font-size: 40px;
+    color: #FFFFFF;
+    font-weight: bold;
+    margin-bottom: 24px;
+}
+
+.list-inline{
+    margin: 0;
+    color: #FFFFFF;
+}
+
+.list-inline li i{
+    margin-right: 15px;
+    color: var(--primary);
+}
+
+.c-box-title{
+    background-color: var(--light);
+    padding: 24px;
+    text-align: center;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.c-box-title h1{
+    color: var(--dark);
+    font-size: 40px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.form-area{
+    background-color: var(--primary);
+    padding: 48px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.form-group input{
+    padding: 24px;
+    text-shadow: none;
+    border-radius: 8px;
+}
+
+
+
+.form-group select{
+    padding: 12px 23px;
+    border: none;
+    height: 100%;
+    border-radius: 8px;
+}
+
+
+.form-area button{
+    padding: 16px 12px;
+    width: 100%;
+    border: none;
+    background-color: var(--dark);
+    font-weight: 400;
+    color: #FFFFFF;
+    border-radius: 8px;
+    outline: none;
+}
+
+.form-area button:hover{
+    background-color: #333244;
+    cursor: pointer;
+    transition: 0.1s ease-in-out;
+}
+
+
+
+
+@media screen and (max-width: 991px){
+    .c-box-title h1{
+        font-size: 36px;
+    }
+}
+
+@media screen and (max-width: 576px){
+    .contact-title h1{
+        font-size: 30px;
+    }
+    .c-box-title h1{
+        font-size: 30px;
+    }
+    
+}

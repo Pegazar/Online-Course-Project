@@ -1,0 +1,185 @@
+.bt-img-box {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.bt-img-box img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+.bt-img-box span{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background:rgba(0, 0, 0, 0.5)
+}
+
+.bt-wrapper-title{
+    position: absolute;
+    top: 33%;
+    left: 16%;
+}
+
+.bt-wrapper-title h3{
+    font-size: 56px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #FFFFFF;
+}
+
+.bt-wrapper-title p a{
+    color: #FFFFFF;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.bt-wrapper-title p a:hover{
+    text-decoration: underline;
+}
+
+.bt-wrapper-title i{
+    padding: 4px 16px 0px;
+    color: #FFFFFF;
+}
+
+.bt-about h6{
+    color: var(--primary);
+    margin-bottom: 16px;
+}
+
+.bt-about h1{
+    font-weight: bold;
+    margin-bottom: 48px;
+    color: var(--dark);
+}
+
+.bt-about img:nth-of-type(1){
+    border-radius: 8px;
+    margin-bottom: 24px;
+}
+
+.bt-about p{
+    color: #6c6a74;
+}
+
+.bt-about h2{
+    color: var(--dark);
+    font-weight: bold;
+    margin-bottom: 24px;
+}
+
+.bt-about img:nth-of-type(2){
+    border-radius: 8px;
+    margin: 0px 24px 16px 0px;
+}
+
+.bt-comment{
+    margin-bottom: 48px;
+}
+
+.bt-comment h3{
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 26px;
+    color: var(--dark);
+    letter-spacing: 5px;
+    margin-bottom: 24px;
+}
+
+.bt-comment img{
+    border-radius: 100%;
+    width: 45px;
+    height: 45px;
+    margin: 4px 16px 0 0;
+}
+
+.media{
+    margin-top: 24px;
+}
+.media-body h6{
+    color: var(--dark);
+}
+
+.media-body p{
+    color: #6c6a74;
+    margin-bottom: 16px;
+}
+
+.media-body button{
+    background-color: var(--secondary);
+    border-color: var(--secondary);
+    color: #212529;
+}
+
+.media-body button:hover{
+    color: #212529;
+    background-color: #dad8eb;
+    border-color: #d2cfe7;
+}
+
+.bt-form{
+    background-color: var(--secondary);
+    padding: 48px;
+    border-radius: 8px;
+    margin-bottom: 48px;
+}
+
+.bt-form h3{
+    font-size: 26px;
+    color: var(--dark);
+    letter-spacing: 5px;
+    margin-bottom: 24px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.bt-form form input{
+    padding: 6px 12px;
+    border: none;
+}
+
+.bt-form form textarea{
+    border: none;
+    border-radius: 8px;
+    padding: 6px 12px;
+}
+
+.bt-form form textarea:focus{
+    color: none;
+    box-shadow: none;
+}
+
+.bt-form form button{
+    padding: 8px 24px;
+    border-radius: 8px;
+    color: #FFFFFF;
+    background-color: var(--primary);
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+    outline: none;
+}
+
+.bt-form form button:hover{
+    color: #fff;
+    background-color: #d95700;
+}
+
+@media screen and (max-width: 767px) {
+    .bt-wrapper-title h3{
+        font-size: 43px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .bt-wrapper-title h3{
+        font-size: 38px;
+    }
+}
+
+
+
